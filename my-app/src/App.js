@@ -1,9 +1,11 @@
 import "./App.css";
-import MethodsAsPropsParent from "./components/MethodsAsPropsParent";
+
+import SearchBar from "./components/SearchBar";
 
 function App() {
   return <div className="App">
-    <MethodsAsPropsParent />
+
+    <SearchBar />
   </div>;
 }
 
