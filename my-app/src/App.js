@@ -1,11 +1,10 @@
 import "./App.css";
-
-import UseStateWithArrays from "./components/UseStateWithArrays";
+import HTTPHooks from "./components/HTTPHooks";
 
 function App() {
   return <div className="App">
 
-    <UseStateWithArrays />
+    <HTTPHooks />
   </div>;
 }
 
